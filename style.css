@@ -239,17 +239,18 @@ body{
 }
 
 
-@media screen and (max-width: 576px) {
+@media (max-width: 576px) 
+{
   
   .logo {
-    flex-direction: column;
+    flex-direction: row;
     height: auto;
     padding: 8px;
     text-align: center;
   }
 
   .nav-links {
-    flex-direction: column;
+    flex-direction: row;
     gap: 10px;
     font-size: 14px;
   }
@@ -286,7 +287,7 @@ body{
   }
 
   .two {
-    flex-direction: column;
+    flex-direction: row;
     margin-top: 0px;
   }
 
@@ -331,4 +332,3 @@ body{
 }
     
 
-}
